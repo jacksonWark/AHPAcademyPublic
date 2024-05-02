@@ -353,12 +353,12 @@ const apiEndpoint = createApiEndpoints(myEndpoints);
 
 export const methodARN = apiEndpoint.deployment.executionArn;
 
-/*
+
 const resPolicy = new aws.lambda.Permission("api-gateway-permission", {
     action: "lambda:invokeFunction",
     "function": sendFunc.name,
     principal:"apigateway.amazonaws.com",
-}); */
+}); 
 
 // Export properties from this stack. This prints them at the end of `pulumi up` and
 // makes them easier to access from the pulumi.com.
