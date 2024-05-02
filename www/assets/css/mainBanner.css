@@ -1,0 +1,19 @@
+	#banner {
+		position: relative;	background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/AHPplayers_desktop.webp");	background-position: top left, top left, center center;
+		background-repeat: repeat, repeat, no-repeat;	background-size: auto, auto, cover;	z-index: 1;	padding: 20em 0 5em 0
+	}
+		#banner .content {
+			position: relative;	background-color: rgba(21, 28, 23, 0.85);	background-image: url("../../images/AHP_Academy_Final_Wark_Edit_White1.webp");
+			background-position: center center;	background-size: contain;	background-repeat: no-repeat;	text-align: center;	margin: 0;	padding: 8em 0 7em 0 
+		}
+
+/* XLarge */	@media screen and (max-width: 1680px) {}
+/* Large */	@media screen and (max-width: 1280px) {		}
+/* Medium */	@media screen and (max-width: 980px) {
+		#banner {	background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/AHPplayers_tablet.webp");	}
+	}
+/* Small */	@media screen and (max-width: 736px) {		}
+@media screen and (max-width: 450px) {
+	#banner {	background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/AHPplayers_phone.webp");	}
+}
+/* Extra Small */	@media screen and (max-width: 360px) {}

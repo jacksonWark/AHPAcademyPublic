@@ -1,0 +1,25 @@
+red = #d70000
+light red = #db3232
+dark red = #b60000
+black = #000000
+white = #ffffff
+dark gray = #666666
+dark gray = #5e615f
+dark grey = #6b7770  // preferred
+light gray = #c1cac5 // preferred
+light grey = #D7DAD8
+
+
+
+
+
+
+==========================
+Brochure
+==========================
+dark gray = #666666
+light gray = #EFEFEF
+red = #D00000
+pink = #EF9595
+dark red = #990B0A
+

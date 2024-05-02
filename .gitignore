@@ -1,0 +1,9 @@
+backup/
+FormattedAssets/
+www-unused/
+AHPAcademySite.code-workspace
+pulumi/Pulumi.dev.yaml
+pulumi/node_modules/
+pulumi/bin/
+pulumi/lambda_payload*
+pulumi/Lambda/lambda_payload*

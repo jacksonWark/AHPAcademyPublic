@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400italic,700,700italic");
+/* Year Selector */
+	div.yrSelect {height: 2.75em;justify-content: right;display: flex;box-sizing: border-box;align-items: center;margin: 0;}
+	div.yrSelect.schedule { margin-bottom: 2em;}
+		div.yrSelect select {padding: .15em .25em;margin: 1em 0 1em .5em;border-radius: 4px;border: solid 2px #111111;font-weight: 700;line-height: 25px;}
+			div.yrSelect select:focus {border-color: #d70000;outline: none;}
+			div.yrSelect select option {font-weight: 700;}
+		div.yrSelect label {font-family: 'Montserrat', 'Open Sans Condensed', sans-serif;font-weight: 700;text-transform: uppercase;color: #6b7770;}
+		#yrSel {z-index: 1000;background: #ffffff;width: 15%;height: 2.25em;line-height: 2.25em;text-align: center;font-family: 'Montserrat', 'Open Sans Condensed', sans-serif;font-weight: 700;text-transform: uppercase;cursor: default;padding: 0;margin-right: calc((100% - 64em)/2);}
+			#yrSel ul {list-style: none;margin: 0;padding: 0;}
+				#yrSel li > ul {display: none;}
+				#yrSel li {margin: 0;padding: 0;}
+				#yrSel li p {position: relative;display: block;text-decoration: none;background: #ffffff;color: #d70000;border: solid 4px #d70000;border-radius: 2px;outline: 0;line-height: 2.25em;}
+				#yrSel li:hover p {background: #d70000;color: #ffffff;}
+/* Tables */
+	table tr.divider {background-color: #fff;border: 0;}
+	table tr.gamegrouping {border-bottom: solid 4px #d70000;background-color: #c1cac5;}
+		table tr.gamegrouping td {font-weight: 515;text-transform: uppercase;color: #000000;}
+	table tr.month {background-color: #666666;color: #fff;border-top: solid .5em #ffffff;border-bottom: solid .5em #ffffff;}
+		table tr.month td {color: #fff;font-weight: 550;text-transform: uppercase; border: 0;}
+	table thead {background: #d70000;}
+		table thead.stick tr th{position: sticky;top: 3.25em;}
+		table thead.stick tr.rosterheadicons th{top: 5.25em;}
+	table td.panel {max-height: 0%;}
+	table td.score, th.score {text-align: right;width: 5%;}
+		table td.score.canc {font-size: 75%;}
+	table td.grad {text-align: center;width: 10%;}
+	table td.pos, th.pos {text-align: center;margin: 0 3%;}
+	table thead tr.rosterheadtext th {padding: 1em 1em 0 1em;line-height: 1em;user-select: none;}
+	table thead tr.rosterheadicons { border: 0;user-select: none;}
+		table thead tr.rosterheadicons th {padding:0 1em 0.1em 1em;line-height: 1em;line-height: 1em;}
+	#Roster-Footer {display:flex;flex-direction: row-reverse;margin-left: 0.5em;margin-right: 0.5em;}#Roster-Footer div {display: inline-block;flex-grow: 1;}#Roster-Footer div p {margin: 0;}#Roster-Text {margin-left: 0.5em;}
+	/* other */
+	span.Italic {font-style: italic;font-weight: 600;text-transform: none;}
+	table.staff th.col3, table.staff td.col3 {width: 25%; text-align: right} table.staff th.col2 {width: 35%;}
+	
+	#hashtag {color: #d70000; text-align: center; opacity: 30%; font-size: 4.5em;}
+	.box.page-content h2 {margin-bottom: 0;}
+
+/* XLarge */	@media screen and (max-width: 1680px) {#yrSel {margin-right: calc((100% - 75em)/2)}}
+/* Large */	@media screen and (max-width: 1280px) {/* Schedule */#Date {width: 17%} #Time {width: 14%} #yrSel {margin-right: 50px}}
+/* Medium */	@media screen and (max-width: 980px) {#Roster {width: 100%;} div.yrSelect {justify-content: center; }#yrSel {width: 35%;margin-right: 0;}}
+/* Small */	@media screen and (max-width: 736px) {/* Schedule */ #Date {width: 16%;} #Time {width: 15%;}.container {overflow-x: visible;} #yrSel {font-size: 10pt;} #Roster-Footer div p {font-size: 10pt;line-height: 1.5em;} #hashtag {font-size: 3.5em;} }
+@media screen and (max-width: 450px) {}
+/* Extra Small */@media screen and (max-width: 360px) {/* Schedule */ #Date {width: 25%;}#Time {width: 20%;} table thead.stick tr th{position:static;}#Roster {overflow-x: scroll} #yrSel {font-weight: 600;width: 50%;} }
